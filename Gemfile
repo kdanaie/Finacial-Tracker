@@ -4,14 +4,16 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 
+gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views' 
+
 gem 'bcrypt', '~> 3.1.7'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
 
-# Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
